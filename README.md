@@ -12,7 +12,7 @@ Take a string, force it to lowercase, remove whitespaces, and generate a list of
 While the number of times a given tri-gram is captured, the initial similarity score ignores that fact. *Hope someone else contributes an enhancement.*
 
 ### Example run
-...
+```
 > run
 [info] Compiling 1 Scala source to /Users/stevelu/scala/TextualClustering/target/scala-2.11/classes...
 [warn] there were 10 feature warnings; re-run with -feature for details
@@ -27,4 +27,4 @@ Finding words that share tri-grams with 'zoo':
 (zoological,0.125)
 (zoologically,0.1)
 [success] Total time: 12 s, completed Feb 15, 2017 9:57:04 AM
-...
+```
